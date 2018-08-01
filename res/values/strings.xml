@@ -21,21 +21,21 @@
     <skip />
 
     <!-- Application name -->
-    <string name="app_name">Lawnchair</string>
+    <string name="app_name">Despacito Launcher</string>
     <!-- Default folder name -->
     <string name="folder_name" />
     <!-- Work folder name -->
-    <string name="work_folder_name">Work</string>
+    <string name="work_folder_name">Joston Barber</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-    <string name="activity_not_found">App isn\'t installed.</string>
+    <string name="activity_not_found">Despacito isn\'t installed owo thats so sad.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-    <string name="activity_not_available">App isn\'t available</string>
+    <string name="activity_not_available">Despacito isn\'t available rn too many people are listening </string>
     <!-- SafeMode shortcut error string -->
-    <string name="safemode_shortcut_error">Downloaded app disabled in Safe mode</string>
+    <string name="safemode_shortcut_error">Despacito disabled in Safe mode, for ur safety</string>
     <!-- SafeMode widget error string -->
-    <string name="safemode_widget_error">Widgets disabled in Safe mode</string>
+    <string name="safemode_widget_error">Justin Bieber is disabled in Safe mode</string>
     <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-    <string name="shortcut_not_available">Shortcut isn\'t available</string>
+    <string name="shortcut_not_available">Daddy Yankee isn\'t available</string>
 
     <!-- Widgets -->
     <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
