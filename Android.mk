@@ -47,12 +47,12 @@ LOCAL_AAPT_FLAGS := \
 
 LOCAL_SDK_VERSION := current
 LOCAL_MIN_SDK_VERSION := 21
-LOCAL_PACKAGE_NAME := Lawnchair
+LOCAL_PACKAGE_NAME := Despacito Launcher
 LOCAL_OVERRIDES_PACKAGES := Home Launcher2 Launcher3
 
 LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-common.xml
 
-LOCAL_JACK_COVERAGE_INCLUDE_FILTER := ch.deletescape.lawnchair.*
+LOCAL_JACK_COVERAGE_INCLUDE_FILTER := sos.aperture.despacito.*
 
 include $(BUILD_PACKAGE)
 
