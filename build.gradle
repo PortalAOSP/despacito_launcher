@@ -19,7 +19,7 @@ android {
         travis {
             storeFile file("debug.jks")
             storePassword System.getenv("STORE_PASSWORD")
-            keyAlias "Lawnchair"
+            keyAlias "Despacito Launcher"
             keyPassword System.getenv("KEY_PASSWORD")
         }
     }
@@ -27,7 +27,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 26
-        applicationId 'ch.deletescape.lawnchair'
+        applicationId 'sos.aperture.despacito'
         buildConfigField "String", "MOBILE_CENTER_KEY", "\"" + System.getenv("MOBILE_CENTER_KEY") + "\""
         if (System.getenv("TRAVIS") == "true") {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
@@ -58,8 +58,8 @@ android {
 
     productFlavors {
         aosp {
-            applicationId 'ch.deletescape.lawnchair'
-            testApplicationId 'ch.deletescape.lawnchair.tests'
+            applicationId 'sos.aperture.despacito'
+            testApplicationId 'sos.aperture.despacito.tests'
             dimension "variant"
         }
     }
