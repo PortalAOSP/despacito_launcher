@@ -5,15 +5,15 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0-alpha5'
+        classpath 'com.android.tools.build:gradle:3.1.3'
     }
 }
 
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion '26.0.0'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
     signingConfigs {
         travis {
@@ -26,7 +26,7 @@ android {
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 26
+        targetSdkVersion 27
         applicationId 'sos.aperture.despacito'
         buildConfigField "String", "MOBILE_CENTER_KEY", "\"" + System.getenv("MOBILE_CENTER_KEY") + "\""
         if (System.getenv("TRAVIS") == "true") {
@@ -83,11 +83,11 @@ repositories {
 
 dependencies {
     def mobileCenterSdkVersion = '0.10.0'
-    def supportLibVersion = '26.0.0-beta2'
-    compile "com.microsoft.azure.mobile:mobile-center-analytics:${mobileCenterSdkVersion}"
-    compile "com.microsoft.azure.mobile:mobile-center-crashes:${mobileCenterSdkVersion}"
-    compile "com.microsoft.azure.mobile:mobile-center-distribute:${mobileCenterSdkVersion}"
-    compile "com.android.support:support-v4:${supportLibVersion}"
-    compile "com.android.support:recyclerview-v7:${supportLibVersion}"
-    compile "com.android.support:palette-v7:${supportLibVersion}"
+    def supportLibVersion = '27.1.1'
+    implementation "com.microsoft.azure.mobile:mobile-center-analytics:${mobileCenterSdkVersion}"
+    implementation "com.microsoft.azure.mobile:mobile-center-crashes:${mobileCenterSdkVersion}"
+    implementation "com.microsoft.azure.mobile:mobile-center-distribute:${mobileCenterSdkVersion}"
+    implementation "com.android.support:support-v4:${supportLibVersion}"
+    implementation "com.android.support:recyclerview-v7:${supportLibVersion}"
+    implementation "com.android.support:palette-v7:${supportLibVersion}"
 }
