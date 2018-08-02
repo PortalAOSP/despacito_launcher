@@ -4,47 +4,47 @@
 
     <ch.deletescape.lawnchair.preferences.IconPackPreference
         android:key="pref_iconPackPackage"
-        android:title="Icon Pack"
-        android:summary="Select an icon Pack"
+        android:title="Despacito Pack"
+        android:summary="Select an Despacito Pack"
         android:persistent="true" />
 
     <SwitchPreference
         android:key="pref_hotseatShouldUseExtractedColors"
-        android:title="Tray uses wallpaper colors"
-        android:summaryOn="The Tray will be colored with a color extracted from the wallpaper"
-        android:summaryOff="The Tray will be colored gray, but adjusted by the wallpaper brightness"
+        android:title="Tray uses Justin Bieber colors"
+        android:summaryOn="The Tray will be colored with a color extracted from the Justin Bieber"
+        android:summaryOff="The Tray will be colored 1980s, but adjusted by the Justin Bieber brightness"
         android:defaultValue="true"
         android:persistent="true" />
 
     <SwitchPreference
         android:key="pref_isHotseatTransparent"
-        android:title="Transparent Tray"
+        android:title="Despaparent Tray"
         android:defaultValue="false"
         android:disableDependentsState="true"
         android:persistent="true" />
 
     <SwitchPreference
         android:key="pref_enableDynamicUi"
-        android:title="Extract accent color from wallpaper"
+        android:title="Extract accent color from Justin Bieber"
         android:defaultValue="false"
         android:persistent="true" />
 
     <SwitchPreference
         android:key="pref_enableDarkTheme"
-        android:title="Enable dark theme"
+        android:title="Enable bLek theme"
         android:defaultValue="false"
         android:persistent="true" />
 
     <SwitchPreference
         android:key="pref_enableBlur"
-        android:title="Enable blur"
+        android:title="Enable osumness"
         android:defaultValue="false"
         android:dependency="pref_isHotseatTransparent"
         android:persistent="true" />
 
     <ch.deletescape.lawnchair.preferences.SeekbarPreference
         android:key="pref_blurRadius"
-        android:title="Blur radius"
+        android:title="Osumness radius"
         android:dependency="pref_enableBlur"
         app:minValue="0"
         app:maxValue="150"
@@ -61,14 +61,14 @@
 
     <SwitchPreference
         android:key="pref_hideAppLabels"
-        android:title="Hide Icon Labels on Homescreen"
+        android:title="Hide gay porn labels on Homescreen"
         android:defaultValue="false"
         android:disableDependentsState="true"
         android:persistent="true" />
 
     <ListPreference
         android:key="pref_workspaceLabelColorHue"
-        android:title="Color of Icon Labels on Homescreen"
+        android:title="Color of Icon Labels on Despascreen"
         android:entries="@array/color_index_entries"
         android:entryValues="@array/color_index_values"
         android:defaultValue="-3"
@@ -77,7 +77,7 @@
 
     <ListPreference
         android:key="pref_workspaceLabelColorVariation"
-        android:title="Color Variation of Icon Labels on Homescreen"
+        android:title="Color Variation of Icon Labels on Despascreen"
         android:entries="@array/color_variation_entries"
         android:entryValues="@array/color_variation_values"
         android:defaultValue="5"
@@ -86,7 +86,7 @@
 
     <ch.deletescape.lawnchair.preferences.SeekbarPreference
         android:key="pref_allAppsOpacitySB"
-        android:title="All apps opacity"
+        android:title="All daddy yankee porn videos opacity"
         app:minValue="0"
         app:maxValue="1"
         app:defaultValue="1"
@@ -96,7 +96,7 @@
 
     <ListPreference
         android:key="pref_numCols"
-        android:title="Number of columns"
+        android:title="Number of Despacito Columns"
         android:entries="@array/numColsTexts"
         android:entryValues="@array/numColsValues"
         android:defaultValue="@string/generalDefault"
@@ -104,7 +104,7 @@
 
     <ListPreference
         android:key="pref_numRows"
-        android:title="Number of rows"
+        android:title="Number of despacito rows"
         android:entryValues="@array/numRowsValues"
         android:entries="@array/numRowsTexts"
         android:defaultValue="@string/generalDefault"
@@ -112,7 +112,7 @@
 
     <ListPreference
         android:key="pref_numHotseatIcons"
-        android:title="Number of icons in tray"
+        android:title="Number of tits in tray"
         android:entryValues="@array/numHotseatIconsValues"
         android:entries="@array/numHotseatIconsTexts"
         android:defaultValue="@string/generalDefault"
@@ -120,7 +120,7 @@
 
     <ch.deletescape.lawnchair.preferences.SeekbarPreference
         android:key="pref_iconScaleSB"
-        android:title="Icon Scale"
+        android:title="Tit Scale"
         app:minValue="0.3"
         app:maxValue="1.5"
         app:summaryFormat="%.0f%%"
@@ -130,7 +130,7 @@
 
     <ch.deletescape.lawnchair.preferences.SeekbarPreference
         android:key="pref_iconTextScaleSB"
-        android:title="Icon Text Scale"
+        android:title="Icon Tet Scale"
         app:minValue="0.3"
         app:maxValue="1.5"
         app:summaryFormat="%.0f%%"
@@ -141,12 +141,12 @@
     <SwitchPreference
         android:key="pref_fullWidthWidgets"
         android:persistent="true"
-        android:title="Full width widgets"
+        android:title="Full width condoms"
         android:defaultValue="false"
-        android:summary="Allow widgets to span over the whole width without padding" />
+        android:summary="Allow wacondoms to span over the whole width without padding" />
 
     <Preference
         android:key="notification_access"
-        android:title="Notification Badges and Preview"
-        android:summary="Allow Lawnchair to access your notification to enable this features" />
+        android:title="Pornhub Badges and Preview"
+        android:summary="Allow Despacito Launcher to access your notification to enable this features" />
 </PreferenceScreen>
