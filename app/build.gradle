@@ -15,7 +15,7 @@ android {
         travis {
             storeFile file("debug.jks")
             storePassword System.getenv("STORE_PASSWORD")
-            keyAlias "Lawnchair"
+            keyAlias "Despacito Launcher"
             keyPassword System.getenv("KEY_PASSWORD")
         }
     }
@@ -23,7 +23,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 27
-        applicationId "ch.deletescape.lawnchair"
+        applicationId "sos.aperture.despacito"
 
         buildConfigField "boolean", "TRAVIS", System.getenv("TRAVIS") ?: "false"
         buildConfigField "boolean", "TAGGED_BUILD", System.getenv("TRAVIS_TAG") ? "true" : "false"
