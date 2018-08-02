@@ -21,21 +21,21 @@
     <skip />
 
     <!-- Application name -->
-    <string name="app_name" translatable="false">Lawnchair</string>
+    <string name="app_name" translatable="false">Despacito Launcher</string>
     <!-- Default folder name -->
     <string name="folder_name" translatable="false" />
     <!-- Work folder name -->
-    <string name="work_folder_name">Work</string>
+    <string name="work_folder_name">Joston Barbar</string>
     <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
-    <string name="activity_not_found">App isn\'t installed.</string>
+    <string name="activity_not_found">Pornhub isn\'t installed.</string>
     <!-- Displayed when user selects a shortcut for an app that is current not available [CHAR_LIMIT=none]-->
-    <string name="activity_not_available">App isn\'t available</string>
+    <string name="activity_not_available">Despacito isn\'t available owo, too mani ppl are listening</string>
     <!-- SafeMode shortcut error string -->
-    <string name="safemode_shortcut_error">Downloaded apps are disabled in SafeMode</string>
+    <string name="safemode_shortcut_error">Despacito is disabled in SafeMode, for ur safety uwu</string>
     <!-- SafeMode widget error string -->
-    <string name="safemode_widget_error">Widgets are disabled in SafeMode</string>
+    <string name="safemode_widget_error">Raw daddy yankee sex is disabled in SafeMode</string>
     <!-- Message shown when a shortcut is not available. It could have been temporarily disabled and may start working again after some time. -->
-    <string name="shortcut_not_available">Shortcut isn\'t available</string>
+    <string name="shortcut_not_available">Shortcut isn\'t available, do it the long way lazy cunt</string>
 
     <!-- Widgets -->
     <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
