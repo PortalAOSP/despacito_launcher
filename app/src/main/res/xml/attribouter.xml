@@ -2,14 +2,9 @@
 <about>
     <appInfo
         icon="@mipmap/ic_launcher"
-        playStoreUrl="https://play.google.com/store/apps/details?id=ch.deletescape.lawnchair.plah"
+        
         repo="4PERTURE/despacito_launcher"
-        websiteUrl="https://lawnchair.info">
-        <link
-            name="@string/about_twitter"
-            icon="@drawable/ic_twitter"
-            priority="-1"
-            url="https://twitter.com/lawnchairapp" />
+     
     </appInfo>
     <contributors
         repo=""
