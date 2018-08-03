@@ -52,7 +52,7 @@
         app:longClickContent="@xml/launcher_hidden_preferences" />
 
     <Preference
-        android:key="sexi ppl"
+        android:key="about"
         android:title="@string/about_title"
         android:summary="@string/about_pref_summary"
         android:icon="@drawable/ic_information"/>
