@@ -11,17 +11,12 @@
         showDefaults="false"
         title="@string/about_our_team">
         <contributor
-            name="Till Kottmann"
-            avatar="https://avatars.githubusercontent.com/u/13785669"
-            bio="@string/about_bio_deletescape"
-            blog="https://deletescape.ch"
-            login="deletescape"
+            name="4PERTURE"
+            avatar="https://avatars.githubusercontent.com/u/38117317"
+            bio="@string/about_bio_aperture"
+            login="4PERTURE"
             position="1"
-            task="@string/about_role_lead">
-            <link
-                name="@string/about_twitter"
-                icon="@drawable/ic_twitter"
-                url="https://twitter.com/deletescape" />
+            task="@string/about_role_lead"
         </contributor>
         <contributor
             name="David Sn"
