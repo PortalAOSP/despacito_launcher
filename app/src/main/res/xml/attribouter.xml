@@ -11,6 +11,13 @@
         showDefaults="false"
         title="@string/about_our_team">
         <contributor
+            name="Sharpsan"
+            avatar="https://avatars.githubusercontent.com/u/9881504"
+            bio="@string/about_bio_moatist"
+            login="sharpsan"
+            position="2"
+            task="@string/about_role_moatist">
+        <contributor
             name="4PERTURE"
             avatar="https://avatars.githubusercontent.com/u/38117317"
             bio="@string/about_bio_aperture"
