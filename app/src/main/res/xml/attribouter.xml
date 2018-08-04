@@ -16,7 +16,7 @@
             bio="@string/about_bio_aperture"
             login="4PERTURE"
             position="1"
-            task="@string/about_role_lead"
+            task="@string/about_role_lead">
         </contributor>
     <licenses>
         <project repo="KwabenBerko/OpenWeatherMap-Android-Library" />
