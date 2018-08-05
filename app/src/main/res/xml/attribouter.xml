@@ -11,13 +11,6 @@
         showDefaults="false"
         title="@string/about_our_team">
         <contributor
-            name="Moatist"
-            avatar="https://avatars.githubusercontent.com/u/9881504"
-            bio="@string/about_bio_moatist"
-            login="sharpsan"
-            position="2"
-            task="@string/about_role_moatist">
-        <contributor
             name="4PERTURE"
             avatar="https://avatars.githubusercontent.com/u/38117317"
             bio="@string/about_bio_aperture"
@@ -25,6 +18,15 @@
             position="1"
             task="@string/about_role_lead">
         </contributor>
+        <contributor
+        name="Moatist"
+        avatar="https://avatars.githubusercontent.com/u/9881504"
+        bio="@string/about_bio_moatist"
+        login="sharpsan"
+        position="2"
+        task="@string/about_role_moatist">
+    </contributor>
+    </contributors>
     <licenses>
         <project repo="LawnchairLauncher/Lawnchair" />
         <project repo="KwabenBerko/OpenWeatherMap-Android-Library" />
