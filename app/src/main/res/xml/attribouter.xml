@@ -2,9 +2,7 @@
 <about>
     <appInfo
         icon="@mipmap/ic_launcher"
-        
         repo="4PERTURE/despacito_launcher">
-     
     </appInfo>
     <contributors
         repo=""
@@ -15,17 +13,26 @@
             avatar="https://avatars.githubusercontent.com/u/38117317"
             bio="@string/about_bio_aperture"
             login="4PERTURE"
-            position="1"
+            position="2"
             task="@string/about_role_lead">
         </contributor>
+        <!-- adding empty stub entry to enable large icons  -->
         <contributor
-        name="Moatist"
-        avatar="https://avatars.githubusercontent.com/u/9881504"
-        bio="@string/about_bio_moatist"
-        login="sharpsan"
-        position="2"
-        task="@string/about_role_moatist">
-    </contributor>
+            name=""
+            avatar=""
+            bio=""
+            login=""
+            position="1"
+            task="">
+        </contributor>
+        <contributor
+            name="moatist"
+            avatar="https://avatars.githubusercontent.com/u/9881504"
+            bio="@string/about_bio_moatist"
+            login="sharpsan"
+            position="3"
+            task="@string/about_role_moatist">
+        </contributor>
     </contributors>
     <licenses>
         <project repo="LawnchairLauncher/Lawnchair" />
