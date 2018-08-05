@@ -8,7 +8,7 @@
     android:saveEnabled="false"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ch.deletescape.lawnchair.ExtendedEditText
+    <sos.aperture.despacito.ExtendedEditText
         android:id="@+id/search_box_input"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

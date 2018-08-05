@@ -6,6 +6,6 @@
         path="launcher.db" />
     <include
         domain="sharedpref"
-        path="ch.deletescape.lawnchair.prefs.xml" />
+        path="sos.aperture.despacito.prefs.xml" />
 
 </full-backup-content>

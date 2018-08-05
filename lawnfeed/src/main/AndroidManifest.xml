@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.deletescape.lawnchair.lawnfeed">
+    package="sos.aperture.despacito.lawnfeed">
 
     <!-- Let's break some rules... -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -32,7 +32,7 @@
         </activity>
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="ch.deletescape.lawnchair.lawnfeed.provider"
+            android:authorities="sos.aperture.despacito.lawnfeed.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

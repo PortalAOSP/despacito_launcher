@@ -12,8 +12,8 @@
 
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetPackage="ch.deletescape.lawnchair.plah"
-            android:targetClass="ch.deletescape.lawnchair.BlankActivity" >
+            android:targetPackage="sos.aperture.despacito.plah"
+            android:targetClass="sos.aperture.despacito.BlankActivity" >
 
             <extra android:name="action" android:value="setDefaultLauncher" />
         </intent>

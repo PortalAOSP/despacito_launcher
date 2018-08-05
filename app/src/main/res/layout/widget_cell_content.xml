@@ -36,7 +36,7 @@
             android:textSize="14.0sp" />
     </LinearLayout>
 
-    <ch.deletescape.lawnchair.widget.WidgetImageView
+    <sos.aperture.despacito.widget.WidgetImageView
         android:id="@+id/widget_preview"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

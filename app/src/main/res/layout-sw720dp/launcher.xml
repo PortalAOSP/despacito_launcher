@@ -14,14 +14,14 @@
 -->
 
 <!-- Full screen view projects under the status bar and contains the background -->
-<ch.deletescape.lawnchair.LauncherRootView xmlns:android="http://schemas.android.com/apk/res/android"
+<sos.aperture.despacito.LauncherRootView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:id="@+id/launcher"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <ch.deletescape.lawnchair.dragndrop.DragLayer
+    <sos.aperture.despacito.dragndrop.DragLayer
         android:id="@+id/drag_layer"
         android:clipChildren="false"
         android:clipToPadding="false"
@@ -32,7 +32,7 @@
 
         <!-- The workspace contains 5 screens of cells -->
         <!-- DO NOT CHANGE THE ID -->
-        <ch.deletescape.lawnchair.Workspace
+        <sos.aperture.despacito.Workspace
             android:layout_gravity="center"
             android:id="@+id/workspace"
             android:layout_width="match_parent"
@@ -80,6 +80,6 @@
             android:layout_height="match_parent"
             android:visibility="invisible"
             launcher:layout_ignoreInsets="true" />
-    </ch.deletescape.lawnchair.dragndrop.DragLayer>
+    </sos.aperture.despacito.dragndrop.DragLayer>
 
-</ch.deletescape.lawnchair.LauncherRootView>
+</sos.aperture.despacito.LauncherRootView>

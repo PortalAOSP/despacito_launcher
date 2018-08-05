@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "ch.deletescape.lawnchair.lawnfeed"
+        applicationId "sos.aperture.despacito.lawnfeed"
         minSdkVersion 21
         targetSdkVersion 27
 

@@ -13,6 +13,6 @@
      limitations under the License.
 -->
 
-<ch.deletescape.lawnchair.BubbleTextView xmlns:android="http://schemas.android.com/apk/res/android"
+<sos.aperture.despacito.BubbleTextView xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/Icon"
     android:focusable="true" />

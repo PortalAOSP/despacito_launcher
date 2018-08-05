@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<ch.deletescape.lawnchair.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
+<sos.aperture.despacito.folder.Folder xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -21,7 +21,7 @@
     android:elevation="5dp"
     android:orientation="vertical">
 
-    <ch.deletescape.lawnchair.folder.FolderPagedView
+    <sos.aperture.despacito.folder.FolderPagedView
         android:id="@+id/folder_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -39,7 +39,7 @@
         android:paddingLeft="12dp"
         android:paddingRight="12dp">
 
-        <ch.deletescape.lawnchair.ExtendedEditText
+        <sos.aperture.despacito.ExtendedEditText
             android:id="@+id/folder_name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -59,7 +59,7 @@
             android:textColorHint="@color/folder_name_hint_color"
             android:textSize="@dimen/folder_label_text_size" />
 
-        <ch.deletescape.lawnchair.pageindicators.PageIndicatorDots
+        <sos.aperture.despacito.pageindicators.PageIndicatorDots
             android:id="@+id/folder_page_indicator"
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
@@ -68,4 +68,4 @@
 
     </LinearLayout>
 
-</ch.deletescape.lawnchair.folder.Folder>
+</sos.aperture.despacito.folder.Folder>
