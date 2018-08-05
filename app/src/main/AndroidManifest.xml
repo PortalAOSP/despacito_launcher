@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ch.deletescape.lawnchair"
+    package="sos.aperture.despacito"
     android:installLocation="internalOnly">
 
     <permission
@@ -90,7 +90,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.deletescape.wallpaperpicker.WallpaperPickerActivity"
+            android:name="sos.aperture.wallpaperpicker.WallpaperPickerActivity"
             android:finishOnCloseSystemDialogs="true"
             android:label="@string/pick_wallpaper"
             android:screenOrientation="portrait"
@@ -102,7 +102,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="ch.deletescape.wallpaperpicker.WallpaperCropActivity"
+            android:name="sos.aperture.wallpaperpicker.WallpaperCropActivity"
             android:finishOnCloseSystemDialogs="true"
             android:label="@string/crop_wallpaper"
             android:screenOrientation="portrait"
@@ -128,8 +128,8 @@
             android:name=".LauncherProvider"
             android:authorities="${applicationId}.settings"
             android:exported="true"
-            android:readPermission="ch.deletescape.lawnchair.permission.READ_SETTINGS"
-            android:writePermission="ch.deletescape.lawnchair.permission.WRITE_SETTINGS" />
+            android:readPermission="sos.aperture.despacito.permission.READ_SETTINGS"
+            android:writePermission="sos.aperture.despacito.permission.WRITE_SETTINGS" />
 
         <receiver
             android:name=".InstallShortcutReceiver"
@@ -225,7 +225,7 @@
                 android:resource="@xml/provider_paths"/>
         </provider>
 
-        <activity android:name="ch.deletescape.lawnchair.dragndrop.AddItemActivity"
+        <activity android:name="sos.aperture.despacito.dragndrop.AddItemActivity"
             android:theme="@android:style/Theme.Material.Light.Dialog.Alert"
             android:excludeFromRecents="true"
             android:autoRemoveFromRecents="true"
@@ -237,12 +237,12 @@
         </activity>
 
         <activity
-            android:name="ch.deletescape.lawnchair.gestures.dt2s.SleepTimeoutActivity"
+            android:name="sos.aperture.despacito.gestures.dt2s.SleepTimeoutActivity"
             android:screenOrientation="locked"
             android:theme="@style/SleepTimeoutTheme"/>
 
         <receiver
-            android:name="ch.deletescape.lawnchair.gestures.dt2s.SleepDeviceAdmin"
+            android:name="sos.aperture.despacito.gestures.dt2s.SleepDeviceAdmin"
             android:description="@string/dt2s_admin_hint"
             android:permission="android.permission.BIND_DEVICE_ADMIN">
             <meta-data

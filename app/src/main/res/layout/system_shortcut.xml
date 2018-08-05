@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ch.deletescape.lawnchair.shortcuts.DeepShortcutView xmlns:android="http://schemas.android.com/apk/res/android"
+<sos.aperture.despacito.shortcuts.DeepShortcutView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     android:background="?android:attr/selectableItemBackground"
     android:layout_width="@dimen/bg_popup_item_width"
     android:layout_height="@dimen/popup_system_shortcut_height">
 
-    <ch.deletescape.lawnchair.BubbleTextView
+    <sos.aperture.despacito.BubbleTextView
         android:id="@+id/bubble_text"
         style="@style/Icon"
         android:background="?android:selectableItemBackground"
@@ -35,4 +35,4 @@
         android:layout_gravity="end|bottom|center"
         android:background="?android:listDivider"
         android:visibility="gone" />
-</ch.deletescape.lawnchair.shortcuts.DeepShortcutView>
+</sos.aperture.despacito.shortcuts.DeepShortcutView>
