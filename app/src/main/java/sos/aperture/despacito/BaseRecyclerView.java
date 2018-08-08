@@ -149,12 +149,8 @@ public abstract class BaseRecyclerView extends RecyclerView
      */
     protected boolean shouldStopScroll(MotionEvent ev) {
         if (ev.getAction() == MotionEvent.ACTION_DOWN) {
-            if ((Math.abs(mDy) < mDeltaThreshold &&
-                    getScrollState() != RecyclerView.SCROLL_STATE_IDLE)) {
-                // now the touch events are being passed to the {@link WidgetCell} until the
-                // touch sequence goes over the touch slop.
-                return true;
-            }
+            return (Math.abs(mDy) < mDeltaThreshold &&
+                    getScrollState() != RecyclerView.SCROLL_STATE_IDLE);
         }
         return false;
     }

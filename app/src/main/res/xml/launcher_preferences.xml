@@ -48,8 +48,7 @@
         android:title="@string/debug_pref_title"
         android:summary="@string/debug_pref_summary"
         android:icon="@drawable/ic_debug"
-        app:content="@xml/launcher_debug_preferences"
-        app:longClickContent="@xml/launcher_hidden_preferences" />
+        app:content="@xml/launcher_debug_preferences"/>
 
     <Preference
         android:key="about"

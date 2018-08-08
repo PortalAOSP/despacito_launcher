@@ -362,7 +362,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         }
     }
 
-    private inner open class StringPref(key: String? = null, defaultValue: String = "") :
+    private open inner class StringPref(key: String? = null, defaultValue: String = "") :
             PrefDelegate<String>(key, defaultValue) {
         override fun getValue(thisRef: Any?, property: KProperty<*>): String = sharedPrefs.getString(key ?: property.name, defaultValue)
     }
@@ -374,7 +374,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         }
     }
 
-    private inner open class StringSetPref(key: String? = null, defaultValue: Set<String>? = null) :
+    private open inner class StringSetPref(key: String? = null, defaultValue: Set<String>? = null) :
             PrefDelegate<Set<String>?>(key, defaultValue) {
         override fun getValue(thisRef: Any?, property: KProperty<*>): Set<String>? = sharedPrefs.getStringSet(key ?: property.name, defaultValue)
     }
@@ -386,7 +386,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         }
     }
 
-    private inner open class IntPref(key: String? = null, defaultValue: Int = 0) :
+    private open inner class IntPref(key: String? = null, defaultValue: Int = 0) :
             PrefDelegate<Int>(key, defaultValue) {
         override fun getValue(thisRef: Any?, property: KProperty<*>): Int = sharedPrefs.getInt(key ?: property.name, defaultValue)
     }
@@ -398,7 +398,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         }
     }
 
-    private inner open class FloatPref(key: String? = null, defaultValue: Float = 0f) :
+    private open inner class FloatPref(key: String? = null, defaultValue: Float = 0f) :
             PrefDelegate<Float>(key, defaultValue) {
         override fun getValue(thisRef: Any?, property: KProperty<*>): Float = sharedPrefs.getFloat(key ?: property.name, defaultValue)
     }
@@ -410,7 +410,7 @@ open class PreferenceImpl(context: Context) : IPreferenceProvider {
         }
     }
 
-    private inner open class BooleanPref(key: String? = null, defaultValue: Boolean = false) :
+    private open inner class BooleanPref(key: String? = null, defaultValue: Boolean = false) :
             PrefDelegate<Boolean>(key, defaultValue) {
         override fun getValue(thisRef: Any?, property: KProperty<*>): Boolean = sharedPrefs.getBoolean(key ?: property.name, defaultValue)
     }

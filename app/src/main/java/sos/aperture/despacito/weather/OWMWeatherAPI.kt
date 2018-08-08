@@ -12,7 +12,6 @@ class OWMWeatherAPI(context: Context) : WeatherAPI(), OpenWeatherMapHelper.Curre
 
     override var city: String = ""
     override var units: Units = Units.METRIC
-        get() = field
         set(value) {
             field = value
             helper.setUnits(value.longName)

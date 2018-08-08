@@ -79,7 +79,7 @@ class IconPackPreference @JvmOverloads constructor(context: Context, attrs: Attr
                 setNone()
             }
 
-            val alternativeIcons = Utilities.getAlternativeIconList(context);
+            val alternativeIcons = Utilities.getAlternativeIconList(context)
             if (alternativeIcons.size > 0) {
                 Utilities.showResetAlternativeIcons(context, alternativeIcons)
             }

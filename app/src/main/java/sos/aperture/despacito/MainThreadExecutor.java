@@ -76,7 +76,7 @@ public class MainThreadExecutor extends AbstractExecutorService {
      */
     @Override
     @Deprecated
-    public boolean awaitTermination(long l, @NonNull TimeUnit timeUnit) throws InterruptedException {
+    public boolean awaitTermination(long l, @NonNull TimeUnit timeUnit) {
         throw new UnsupportedOperationException();
     }
 }

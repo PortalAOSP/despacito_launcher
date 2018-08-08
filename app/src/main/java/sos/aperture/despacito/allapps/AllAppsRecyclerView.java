@@ -456,7 +456,7 @@ public class AllAppsRecyclerView extends BaseRecyclerView {
             if (Float.compare(contentTranslationY, 0.0f) != 0) {
                 if (mSpringAnimationHandler != null)
                     mSpringAnimationHandler.animateToPositionWithVelocity(0.0f, -1, -((contentTranslationY / getDampedOverScroll((float) AllAppsRecyclerView.this.getHeight())) * 5000.0f));
-                ObjectAnimator.ofFloat(AllAppsRecyclerView.this, AllAppsRecyclerView.CONTENT_TRANS_Y, new float[]{0.0f}).setDuration(100).start();
+                ObjectAnimator.ofFloat(AllAppsRecyclerView.this, AllAppsRecyclerView.CONTENT_TRANS_Y, 0.0f).setDuration(100).start();
             }
             this.mIsInOverScroll = false;
             this.mFirstDisplacement = 0.0f;

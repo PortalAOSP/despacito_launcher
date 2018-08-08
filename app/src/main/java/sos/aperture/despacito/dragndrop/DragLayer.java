@@ -282,9 +282,7 @@ public class DragLayer extends InsettableFrameLayout {
             if (!isEventOverFolder(currentFolder, ev)) {
                 if (isInAccessibleDrag()) {
                     // Do not close the folder if in drag and drop.
-                    if (!isEventOverDropTargetBar(ev)) {
-                        return true;
-                    }
+                    return !isEventOverDropTargetBar(ev);
                 } else {
                     mLauncher.closeFolder();
                     return true;

@@ -55,7 +55,7 @@ class SeekbarPreference @JvmOverloads constructor(context: Context, attrs: Attri
 
     override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
         current = min + (max - min) / steps * progress
-        current = Math.round(current * 100f)/100f; //round to .00 places
+        current = Math.round(current * 100f)/100f //round to .00 places
         updateSummary()
 
         persistFloat(current)

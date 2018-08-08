@@ -2238,9 +2238,7 @@ public class Workspace extends PagedView
 
         if (dropOverView instanceof FolderIcon) {
             FolderIcon fi = (FolderIcon) dropOverView;
-            if (fi.acceptDrop(dragInfo)) {
-                return true;
-            }
+            return fi.acceptDrop(dragInfo);
         }
         return false;
     }

@@ -121,7 +121,7 @@ public class WidgetsBottomSheet extends AbstractFloatingView implements Insettab
 
     public void populateAndShow(ItemInfo itemInfo) {
         this.mOriginalItemInfo = itemInfo;
-        ((TextView) findViewById(R.id.title)).setText(getContext().getString(R.string.widgets_bottom_sheet_title, new Object[]{this.mOriginalItemInfo.title}));
+        ((TextView) findViewById(R.id.title)).setText(getContext().getString(R.string.widgets_bottom_sheet_title, this.mOriginalItemInfo.title));
         onWidgetsBound();
         this.mWasNavBarLight = (this.mLauncher.getWindow().getDecorView().getSystemUiVisibility() & 16) != 0;
         this.mLauncher.getDragLayer().addView(this);
