@@ -38,7 +38,7 @@ android {
             versionCode = Integer.valueOf(System.getenv("TRAVIS_BUILD_NUMBER"))
             versionName = System.getenv("MAJOR_MINOR") + (System.getenv("DRONE") ? "-" : ".") + System.getenv("TRAVIS_BUILD_NUMBER")
         } else {
-            versionCode 1
+            versionCode 2
             versionName "ci_14"
         }
     }
